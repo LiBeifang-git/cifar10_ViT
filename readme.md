@@ -16,10 +16,8 @@
 ## 训练结果
 lr=5e-4 batch_size=64 epochs=100
 
-<h3 align="center">模型训练可视化结果</h3>
-
 <p align="center">
-  <b>准确率曲线 (Accuracy)</b><br>
+  <b>准确率曲线</b><br>
   <img src="./assets/Accuracy_Test_Epoch-2.svg" width="600" alt="Accuracy Test Epoch">
 </p>
 
