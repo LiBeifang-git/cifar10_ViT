@@ -16,11 +16,21 @@
 ## 训练结果
 lr=5e-4 batch_size=64 epochs=100
 
-准确率曲线
-<img src="./assets/Accuracy_Test_Epoch-2.svg" width="600">
+<h3 align="center">模型训练可视化结果</h3>
 
-Loss曲线
-<img src="./assets/Loss_Train_Batch.svg" width="600">
+<p align="center">
+  <b>准确率曲线 (Accuracy)</b><br>
+  <img src="./assets/Accuracy_Test_Epoch-2.svg" width="600" alt="Accuracy Test Epoch">
+</p>
 
-<img src="./assets/Loss_Train_Epoch.svg" width="600">
+<table align="center">
+  <tr>
+    <td align="center"><b>训练损失 (Loss per Batch)</b></td>
+    <td align="center"><b>训练损失 (Loss per Epoch)</b></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/Loss_Train_Batch.svg" width="400" alt="Loss Train Batch"></td>
+    <td><img src="./assets/Loss_Train_Epoch.svg" width="400" alt="Loss Train Epoch"></td>
+  </tr>
+</table>
 
